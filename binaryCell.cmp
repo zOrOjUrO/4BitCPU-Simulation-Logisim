@@ -1,0 +1,1346 @@
+<org.eclipse.gef.examples.logicdesigner.model.CircuitD>
+  <listeners serialization="custom">
+    <java.beans.PropertyChangeSupport>
+      <default>
+        <source class="org.eclipse.gef.examples.logicdesigner.model.CircuitD" reference="../../../.."/>
+        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+      </default>
+      <null/>
+    </java.beans.PropertyChangeSupport>
+  </listeners>
+  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+  <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+  <id>0</id>
+  <name>Circuit #0 Text=0 0</name>
+  <inputs/>
+  <location>
+    <x>10</x>
+    <y>10</y>
+  </location>
+  <outputs/>
+  <size>
+    <width>15</width>
+    <height>45</height>
+  </size>
+  <TERMINALS__OUT/>
+  <TERMINALS__IN/>
+  <VisibilityValue>true</VisibilityValue>
+  <resizable>false</resizable>
+  <selectable>true</selectable>
+  <nin>0</nin>
+  <nout>0</nout>
+  <children>
+    <org.eclipse.gef.examples.logicdesigner.model.OrGate>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="org.eclipse.gef.examples.logicdesigner.model.OrGate" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+      <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+      <id>0</id>
+      <name>OR Gate #0</name>
+      <inputs/>
+      <location>
+        <x>0</x>
+        <y>0</y>
+      </location>
+      <outputs/>
+      <size>
+        <width>10</width>
+        <height>10</height>
+      </size>
+      <VisibilityValue>false</VisibilityValue>
+      <resizable>false</resizable>
+      <selectable>false</selectable>
+      <nin>0</nin>
+      <nout>0</nout>
+      <result>0</result>
+    </org.eclipse.gef.examples.logicdesigner.model.OrGate>
+    <org.eclipse.gef.examples.logicdesigner.model.Circuit>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+      <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+      <id>0</id>
+      <name>Circuit #0</name>
+      <inputs>
+        <entry>
+          <string>D</string>
+          <org.eclipse.gef.examples.logicdesigner.model.Wire>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                </default>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+            <selectable>true</selectable>
+            <value>3</value>
+            <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit">
+              <listeners serialization="custom">
+                <java.beans.PropertyChangeSupport>
+                  <default>
+                    <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../.."/>
+                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  </default>
+                  <null/>
+                </java.beans.PropertyChangeSupport>
+              </listeners>
+              <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+              <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+              <id>1</id>
+              <name>Circuit #1</name>
+              <inputs>
+                <entry>
+                  <string>E</string>
+                  <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                    <listeners serialization="custom">
+                      <java.beans.PropertyChangeSupport>
+                        <default>
+                          <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                        </default>
+                        <null/>
+                      </java.beans.PropertyChangeSupport>
+                    </listeners>
+                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                    <selectable>true</selectable>
+                    <value>0</value>
+                    <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate">
+                      <listeners serialization="custom">
+                        <java.beans.PropertyChangeSupport>
+                          <default>
+                            <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                          </default>
+                          <null/>
+                        </java.beans.PropertyChangeSupport>
+                      </listeners>
+                      <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                      <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                      <id>10</id>
+                      <name>NAND Gate #10</name>
+                      <tempName>NAND Gate ##11</tempName>
+                      <inputs>
+                        <entry>
+                          <string>B</string>
+                          <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                            <listeners serialization="custom">
+                              <java.beans.PropertyChangeSupport>
+                                <default>
+                                  <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                </default>
+                                <null/>
+                              </java.beans.PropertyChangeSupport>
+                            </listeners>
+                            <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                            <selectable>true</selectable>
+                            <value>1</value>
+                            <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate">
+                              <listeners serialization="custom">
+                                <java.beans.PropertyChangeSupport>
+                                  <default>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                  </default>
+                                  <null/>
+                                </java.beans.PropertyChangeSupport>
+                              </listeners>
+                              <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                              <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                              <id>9</id>
+                              <name>NAND Gate #9</name>
+                              <tempName>NAND Gate ##6</tempName>
+                              <inputs>
+                                <entry>
+                                  <string>B</string>
+                                  <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                    <listeners serialization="custom">
+                                      <java.beans.PropertyChangeSupport>
+                                        <default>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                        </default>
+                                        <null/>
+                                      </java.beans.PropertyChangeSupport>
+                                    </listeners>
+                                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                    <selectable>true</selectable>
+                                    <value>1</value>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../.."/>
+                                    <target class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                    <sourceTerminal>4</sourceTerminal>
+                                    <targetTerminal>B</targetTerminal>
+                                    <bendpoints/>
+                                    <VisibilityValue>false</VisibilityValue>
+                                  </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                </entry>
+                                <entry>
+                                  <string>A</string>
+                                  <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                    <listeners serialization="custom">
+                                      <java.beans.PropertyChangeSupport>
+                                        <default>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                        </default>
+                                        <null/>
+                                      </java.beans.PropertyChangeSupport>
+                                    </listeners>
+                                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                    <selectable>true</selectable>
+                                    <value>0</value>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../.."/>
+                                    <target class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                    <sourceTerminal>2</sourceTerminal>
+                                    <targetTerminal>A</targetTerminal>
+                                    <bendpoints/>
+                                    <VisibilityValue>false</VisibilityValue>
+                                  </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                </entry>
+                              </inputs>
+                              <location>
+                                <x>0</x>
+                                <y>0</y>
+                              </location>
+                              <outputs>
+                                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../.."/>
+                              </outputs>
+                              <size>
+                                <width>10</width>
+                                <height>10</height>
+                              </size>
+                              <VisibilityValue>false</VisibilityValue>
+                              <resizable>false</resizable>
+                              <selectable>false</selectable>
+                              <nin>0</nin>
+                              <nout>0</nout>
+                              <result>1</result>
+                            </source>
+                            <target class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                            <sourceTerminal>OUT</sourceTerminal>
+                            <targetTerminal>B</targetTerminal>
+                            <bendpoints/>
+                            <VisibilityValue>false</VisibilityValue>
+                          </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                        </entry>
+                        <entry>
+                          <string>A</string>
+                          <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                            <listeners serialization="custom">
+                              <java.beans.PropertyChangeSupport>
+                                <default>
+                                  <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                </default>
+                                <null/>
+                              </java.beans.PropertyChangeSupport>
+                            </listeners>
+                            <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                            <selectable>true</selectable>
+                            <value>1</value>
+                            <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate">
+                              <listeners serialization="custom">
+                                <java.beans.PropertyChangeSupport>
+                                  <default>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                  </default>
+                                  <null/>
+                                </java.beans.PropertyChangeSupport>
+                              </listeners>
+                              <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                              <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                              <id>11</id>
+                              <name>NAND Gate #11</name>
+                              <tempName>NAND Gate ##12</tempName>
+                              <inputs>
+                                <entry>
+                                  <string>B</string>
+                                  <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                    <listeners serialization="custom">
+                                      <java.beans.PropertyChangeSupport>
+                                        <default>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                        </default>
+                                        <null/>
+                                      </java.beans.PropertyChangeSupport>
+                                    </listeners>
+                                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                    <selectable>true</selectable>
+                                    <value>0</value>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../../../../../.."/>
+                                    <target class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                    <sourceTerminal>OUT</sourceTerminal>
+                                    <targetTerminal>B</targetTerminal>
+                                    <bendpoints/>
+                                    <VisibilityValue>false</VisibilityValue>
+                                  </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                </entry>
+                                <entry>
+                                  <string>A</string>
+                                  <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                    <listeners serialization="custom">
+                                      <java.beans.PropertyChangeSupport>
+                                        <default>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                        </default>
+                                        <null/>
+                                      </java.beans.PropertyChangeSupport>
+                                    </listeners>
+                                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                    <selectable>true</selectable>
+                                    <value>1</value>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate">
+                                      <listeners serialization="custom">
+                                        <java.beans.PropertyChangeSupport>
+                                          <default>
+                                            <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                          </default>
+                                          <null/>
+                                        </java.beans.PropertyChangeSupport>
+                                      </listeners>
+                                      <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                      <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                                      <id>8</id>
+                                      <name>NAND Gate #8</name>
+                                      <tempName>NAND Gate ##7</tempName>
+                                      <inputs>
+                                        <entry>
+                                          <string>B</string>
+                                          <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                            <listeners serialization="custom">
+                                              <java.beans.PropertyChangeSupport>
+                                                <default>
+                                                  <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                                </default>
+                                                <null/>
+                                              </java.beans.PropertyChangeSupport>
+                                            </listeners>
+                                            <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                            <selectable>true</selectable>
+                                            <value>0</value>
+                                            <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../../../../../.."/>
+                                            <target class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                            <sourceTerminal>2</sourceTerminal>
+                                            <targetTerminal>B</targetTerminal>
+                                            <bendpoints/>
+                                            <VisibilityValue>false</VisibilityValue>
+                                          </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                        </entry>
+                                        <entry>
+                                          <string>A</string>
+                                          <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                            <listeners serialization="custom">
+                                              <java.beans.PropertyChangeSupport>
+                                                <default>
+                                                  <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                                </default>
+                                                <null/>
+                                              </java.beans.PropertyChangeSupport>
+                                            </listeners>
+                                            <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                            <selectable>true</selectable>
+                                            <value>0</value>
+                                            <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../../../../../.."/>
+                                            <target class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                            <sourceTerminal>1</sourceTerminal>
+                                            <targetTerminal>A</targetTerminal>
+                                            <bendpoints/>
+                                            <VisibilityValue>false</VisibilityValue>
+                                          </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                        </entry>
+                                      </inputs>
+                                      <location>
+                                        <x>0</x>
+                                        <y>0</y>
+                                      </location>
+                                      <outputs>
+                                        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../.."/>
+                                      </outputs>
+                                      <size reference="../../../../../../../../entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/size"/>
+                                      <VisibilityValue>false</VisibilityValue>
+                                      <resizable>false</resizable>
+                                      <selectable>false</selectable>
+                                      <nin>0</nin>
+                                      <nout>0</nout>
+                                      <result>1</result>
+                                    </source>
+                                    <target class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                                    <sourceTerminal>OUT</sourceTerminal>
+                                    <targetTerminal>A</targetTerminal>
+                                    <bendpoints/>
+                                    <VisibilityValue>false</VisibilityValue>
+                                  </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                </entry>
+                              </inputs>
+                              <location>
+                                <x>0</x>
+                                <y>0</y>
+                              </location>
+                              <outputs>
+                                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../.."/>
+                                <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                  <listeners serialization="custom">
+                                    <java.beans.PropertyChangeSupport>
+                                      <default>
+                                        <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                      </default>
+                                      <null/>
+                                    </java.beans.PropertyChangeSupport>
+                                  </listeners>
+                                  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                  <selectable>true</selectable>
+                                  <value>1</value>
+                                  <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../.."/>
+                                  <target class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../.."/>
+                                  <sourceTerminal>OUT</sourceTerminal>
+                                  <targetTerminal>H</targetTerminal>
+                                  <bendpoints/>
+                                  <VisibilityValue>false</VisibilityValue>
+                                </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                              </outputs>
+                              <size reference="../../../../entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/size"/>
+                              <VisibilityValue>false</VisibilityValue>
+                              <resizable>false</resizable>
+                              <selectable>false</selectable>
+                              <nin>0</nin>
+                              <nout>0</nout>
+                              <result>1</result>
+                            </source>
+                            <target class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                            <sourceTerminal>OUT</sourceTerminal>
+                            <targetTerminal>A</targetTerminal>
+                            <bendpoints/>
+                            <VisibilityValue>false</VisibilityValue>
+                          </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                        </entry>
+                      </inputs>
+                      <location>
+                        <x>0</x>
+                        <y>0</y>
+                      </location>
+                      <outputs>
+                        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+                        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../.."/>
+                      </outputs>
+                      <size reference="../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/size"/>
+                      <VisibilityValue>false</VisibilityValue>
+                      <resizable>false</resizable>
+                      <selectable>false</selectable>
+                      <nin>0</nin>
+                      <nout>0</nout>
+                      <result>0</result>
+                    </source>
+                    <target class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../.."/>
+                    <sourceTerminal>OUT</sourceTerminal>
+                    <targetTerminal>E</targetTerminal>
+                    <bendpoints/>
+                    <VisibilityValue>false</VisibilityValue>
+                  </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                </entry>
+                <entry>
+                  <string>D</string>
+                  <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                    <listeners serialization="custom">
+                      <java.beans.PropertyChangeSupport>
+                        <default>
+                          <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                        </default>
+                        <null/>
+                      </java.beans.PropertyChangeSupport>
+                    </listeners>
+                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                    <selectable>true</selectable>
+                    <value>1</value>
+                    <source class="org.eclipse.gef.examples.logicdesigner.model.AndGate3">
+                      <listeners serialization="custom">
+                        <java.beans.PropertyChangeSupport>
+                          <default>
+                            <source class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                          </default>
+                          <null/>
+                        </java.beans.PropertyChangeSupport>
+                      </listeners>
+                      <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                      <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                      <id>21</id>
+                      <name>AND Gate #21</name>
+                      <tempName>AND Gate ##8</tempName>
+                      <inputs>
+                        <entry>
+                          <string>C</string>
+                          <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                            <listeners serialization="custom">
+                              <java.beans.PropertyChangeSupport>
+                                <default>
+                                  <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                </default>
+                                <null/>
+                              </java.beans.PropertyChangeSupport>
+                            </listeners>
+                            <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                            <selectable>true</selectable>
+                            <value>1</value>
+                            <source class="org.eclipse.gef.examples.logicdesigner.model.NotGate">
+                              <listeners serialization="custom">
+                                <java.beans.PropertyChangeSupport>
+                                  <default>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.NotGate" reference="../../../.."/>
+                                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                  </default>
+                                  <null/>
+                                </java.beans.PropertyChangeSupport>
+                              </listeners>
+                              <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                              <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                              <id>16</id>
+                              <name>NOT Gate #16</name>
+                              <tempName>NOT Gate ##4</tempName>
+                              <inputs>
+                                <entry>
+                                  <string>A</string>
+                                  <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                    <listeners serialization="custom">
+                                      <java.beans.PropertyChangeSupport>
+                                        <default>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                        </default>
+                                        <null/>
+                                      </java.beans.PropertyChangeSupport>
+                                    </listeners>
+                                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                    <selectable>true</selectable>
+                                    <value>3</value>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../../../../../.."/>
+                                    <target class="org.eclipse.gef.examples.logicdesigner.model.NotGate" reference="../../../.."/>
+                                    <sourceTerminal>1</sourceTerminal>
+                                    <targetTerminal>A</targetTerminal>
+                                    <bendpoints/>
+                                    <VisibilityValue>false</VisibilityValue>
+                                  </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                </entry>
+                              </inputs>
+                              <location>
+                                <x>0</x>
+                                <y>0</y>
+                              </location>
+                              <outputs>
+                                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../.."/>
+                              </outputs>
+                              <size>
+                                <width>10</width>
+                                <height>10</height>
+                              </size>
+                              <VisibilityValue>false</VisibilityValue>
+                              <resizable>false</resizable>
+                              <selectable>false</selectable>
+                              <nin>0</nin>
+                              <nout>0</nout>
+                              <result>1</result>
+                            </source>
+                            <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                            <sourceTerminal>OUT</sourceTerminal>
+                            <targetTerminal>C</targetTerminal>
+                            <bendpoints/>
+                            <VisibilityValue>false</VisibilityValue>
+                          </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                        </entry>
+                        <entry>
+                          <string>B</string>
+                          <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                            <listeners serialization="custom">
+                              <java.beans.PropertyChangeSupport>
+                                <default>
+                                  <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                </default>
+                                <null/>
+                              </java.beans.PropertyChangeSupport>
+                            </listeners>
+                            <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                            <selectable>true</selectable>
+                            <value>1</value>
+                            <source class="org.eclipse.gef.examples.logicdesigner.model.NotGate">
+                              <listeners serialization="custom">
+                                <java.beans.PropertyChangeSupport>
+                                  <default>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.NotGate" reference="../../../.."/>
+                                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                  </default>
+                                  <null/>
+                                </java.beans.PropertyChangeSupport>
+                              </listeners>
+                              <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                              <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                              <id>22</id>
+                              <name>NOT Gate #22</name>
+                              <tempName>NOT Gate ##10</tempName>
+                              <inputs>
+                                <entry>
+                                  <string>A</string>
+                                  <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                    <listeners serialization="custom">
+                                      <java.beans.PropertyChangeSupport>
+                                        <default>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                        </default>
+                                        <null/>
+                                      </java.beans.PropertyChangeSupport>
+                                    </listeners>
+                                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                    <selectable>true</selectable>
+                                    <value>3</value>
+                                    <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../../../../../.."/>
+                                    <target class="org.eclipse.gef.examples.logicdesigner.model.NotGate" reference="../../../.."/>
+                                    <sourceTerminal>2</sourceTerminal>
+                                    <targetTerminal>A</targetTerminal>
+                                    <bendpoints/>
+                                    <VisibilityValue>false</VisibilityValue>
+                                  </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                </entry>
+                              </inputs>
+                              <location>
+                                <x>0</x>
+                                <y>0</y>
+                              </location>
+                              <outputs>
+                                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../.."/>
+                                <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                  <listeners serialization="custom">
+                                    <java.beans.PropertyChangeSupport>
+                                      <default>
+                                        <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                      </default>
+                                      <null/>
+                                    </java.beans.PropertyChangeSupport>
+                                  </listeners>
+                                  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                  <selectable>true</selectable>
+                                  <value>1</value>
+                                  <source class="org.eclipse.gef.examples.logicdesigner.model.NotGate" reference="../../.."/>
+                                  <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3">
+                                    <listeners serialization="custom">
+                                      <java.beans.PropertyChangeSupport>
+                                        <default>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                        </default>
+                                        <null/>
+                                      </java.beans.PropertyChangeSupport>
+                                    </listeners>
+                                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                    <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                                    <id>18</id>
+                                    <name>AND Gate #18</name>
+                                    <tempName>AND Gate ##5</tempName>
+                                    <inputs>
+                                      <entry>
+                                        <string>C</string>
+                                        <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                          <listeners serialization="custom">
+                                            <java.beans.PropertyChangeSupport>
+                                              <default>
+                                                <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                                <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                              </default>
+                                              <null/>
+                                            </java.beans.PropertyChangeSupport>
+                                          </listeners>
+                                          <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                          <selectable>true</selectable>
+                                          <value>3</value>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../../../../../../../../.."/>
+                                          <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                                          <sourceTerminal>3</sourceTerminal>
+                                          <targetTerminal>C</targetTerminal>
+                                          <bendpoints/>
+                                          <VisibilityValue>false</VisibilityValue>
+                                        </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                      </entry>
+                                      <entry>
+                                        <string>B</string>
+                                        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../../.."/>
+                                      </entry>
+                                      <entry>
+                                        <string>A</string>
+                                        <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                          <listeners serialization="custom">
+                                            <java.beans.PropertyChangeSupport>
+                                              <default>
+                                                <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                                <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                              </default>
+                                              <null/>
+                                            </java.beans.PropertyChangeSupport>
+                                          </listeners>
+                                          <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                          <selectable>true</selectable>
+                                          <value>3</value>
+                                          <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../../../../../../../../.."/>
+                                          <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                                          <sourceTerminal>1</sourceTerminal>
+                                          <targetTerminal>A</targetTerminal>
+                                          <bendpoints/>
+                                          <VisibilityValue>false</VisibilityValue>
+                                        </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                      </entry>
+                                    </inputs>
+                                    <location>
+                                      <x>0</x>
+                                      <y>0</y>
+                                    </location>
+                                    <outputs>
+                                      <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                        <listeners serialization="custom">
+                                          <java.beans.PropertyChangeSupport>
+                                            <default>
+                                              <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                              <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                            </default>
+                                            <null/>
+                                          </java.beans.PropertyChangeSupport>
+                                        </listeners>
+                                        <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                                        <selectable>true</selectable>
+                                        <value>0</value>
+                                        <source class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../.."/>
+                                        <target class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../../../.."/>
+                                        <sourceTerminal>OUT</sourceTerminal>
+                                        <targetTerminal>A</targetTerminal>
+                                        <bendpoints/>
+                                        <VisibilityValue>false</VisibilityValue>
+                                      </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                                    </outputs>
+                                    <size>
+                                      <width>10</width>
+                                      <height>10</height>
+                                    </size>
+                                    <VisibilityValue>false</VisibilityValue>
+                                    <resizable>false</resizable>
+                                    <selectable>false</selectable>
+                                    <nin>0</nin>
+                                    <nout>0</nout>
+                                    <result>0</result>
+                                  </target>
+                                  <sourceTerminal>OUT</sourceTerminal>
+                                  <targetTerminal>B</targetTerminal>
+                                  <bendpoints/>
+                                  <VisibilityValue>false</VisibilityValue>
+                                </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                              </outputs>
+                              <size>
+                                <width>10</width>
+                                <height>10</height>
+                              </size>
+                              <VisibilityValue>false</VisibilityValue>
+                              <resizable>false</resizable>
+                              <selectable>false</selectable>
+                              <nin>0</nin>
+                              <nout>0</nout>
+                              <result>1</result>
+                            </source>
+                            <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                            <sourceTerminal>OUT</sourceTerminal>
+                            <targetTerminal>B</targetTerminal>
+                            <bendpoints/>
+                            <VisibilityValue>false</VisibilityValue>
+                          </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                        </entry>
+                        <entry>
+                          <string>A</string>
+                          <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                            <listeners serialization="custom">
+                              <java.beans.PropertyChangeSupport>
+                                <default>
+                                  <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                </default>
+                                <null/>
+                              </java.beans.PropertyChangeSupport>
+                            </listeners>
+                            <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                            <selectable>true</selectable>
+                            <value>3</value>
+                            <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../../.."/>
+                            <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                            <sourceTerminal>3</sourceTerminal>
+                            <targetTerminal>A</targetTerminal>
+                            <bendpoints/>
+                            <VisibilityValue>false</VisibilityValue>
+                          </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                        </entry>
+                      </inputs>
+                      <location>
+                        <x>0</x>
+                        <y>0</y>
+                      </location>
+                      <outputs>
+                        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../.."/>
+                      </outputs>
+                      <size>
+                        <width>10</width>
+                        <height>10</height>
+                      </size>
+                      <VisibilityValue>false</VisibilityValue>
+                      <resizable>false</resizable>
+                      <selectable>false</selectable>
+                      <nin>0</nin>
+                      <nout>0</nout>
+                      <result>1</result>
+                    </source>
+                    <target class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../.."/>
+                    <sourceTerminal>OUT</sourceTerminal>
+                    <targetTerminal>D</targetTerminal>
+                    <bendpoints/>
+                    <VisibilityValue>false</VisibilityValue>
+                  </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                </entry>
+                <entry>
+                  <string>A</string>
+                  <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[2]/target/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+                </entry>
+                <entry>
+                  <string>H</string>
+                  <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[2]"/>
+                </entry>
+              </inputs>
+              <location>
+                <x>238</x>
+                <y>52</y>
+              </location>
+              <outputs>
+                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+                <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                  <listeners serialization="custom">
+                    <java.beans.PropertyChangeSupport>
+                      <default>
+                        <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                      </default>
+                      <null/>
+                    </java.beans.PropertyChangeSupport>
+                  </listeners>
+                  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                  <selectable>true</selectable>
+                  <value>1</value>
+                  <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../.."/>
+                  <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3">
+                    <listeners serialization="custom">
+                      <java.beans.PropertyChangeSupport>
+                        <default>
+                          <source class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                        </default>
+                        <null/>
+                      </java.beans.PropertyChangeSupport>
+                    </listeners>
+                    <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                    <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                    <id>23</id>
+                    <name>AND Gate #23</name>
+                    <tempName>AND Gate ##9</tempName>
+                    <inputs>
+                      <entry>
+                        <string>C</string>
+                        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../../.."/>
+                      </entry>
+                      <entry>
+                        <string>B</string>
+                        <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                          <listeners serialization="custom">
+                            <java.beans.PropertyChangeSupport>
+                              <default>
+                                <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                              </default>
+                              <null/>
+                            </java.beans.PropertyChangeSupport>
+                          </listeners>
+                          <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                          <selectable>true</selectable>
+                          <value>3</value>
+                          <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../.."/>
+                          <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                          <sourceTerminal>3</sourceTerminal>
+                          <targetTerminal>B</targetTerminal>
+                          <bendpoints/>
+                          <VisibilityValue>false</VisibilityValue>
+                        </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                      </entry>
+                      <entry>
+                        <string>A</string>
+                        <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                          <listeners serialization="custom">
+                            <java.beans.PropertyChangeSupport>
+                              <default>
+                                <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                                <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                              </default>
+                              <null/>
+                            </java.beans.PropertyChangeSupport>
+                          </listeners>
+                          <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                          <selectable>true</selectable>
+                          <value>3</value>
+                          <source class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../../.."/>
+                          <target class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../../.."/>
+                          <sourceTerminal>2</sourceTerminal>
+                          <targetTerminal>A</targetTerminal>
+                          <bendpoints/>
+                          <VisibilityValue>false</VisibilityValue>
+                        </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                      </entry>
+                    </inputs>
+                    <location>
+                      <x>0</x>
+                      <y>0</y>
+                    </location>
+                    <outputs>
+                      <org.eclipse.gef.examples.logicdesigner.model.Wire>
+                        <listeners serialization="custom">
+                          <java.beans.PropertyChangeSupport>
+                            <default>
+                              <source class="org.eclipse.gef.examples.logicdesigner.model.Wire" reference="../../../.."/>
+                              <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                            </default>
+                            <null/>
+                          </java.beans.PropertyChangeSupport>
+                        </listeners>
+                        <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                        <selectable>true</selectable>
+                        <value>3</value>
+                        <source class="org.eclipse.gef.examples.logicdesigner.model.AndGate3" reference="../../.."/>
+                        <target class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../../../../../../../.."/>
+                        <sourceTerminal>OUT</sourceTerminal>
+                        <targetTerminal>H</targetTerminal>
+                        <bendpoints/>
+                        <VisibilityValue>false</VisibilityValue>
+                      </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                    </outputs>
+                    <size>
+                      <width>10</width>
+                      <height>10</height>
+                    </size>
+                    <VisibilityValue>false</VisibilityValue>
+                    <resizable>false</resizable>
+                    <selectable>false</selectable>
+                    <nin>0</nin>
+                    <nout>0</nout>
+                    <result>0</result>
+                  </target>
+                  <sourceTerminal>8</sourceTerminal>
+                  <targetTerminal>C</targetTerminal>
+                  <bendpoints/>
+                  <VisibilityValue>false</VisibilityValue>
+                </org.eclipse.gef.examples.logicdesigner.model.Wire>
+                <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../.."/>
+              </outputs>
+              <size>
+                <width>50</width>
+                <height>45</height>
+              </size>
+              <VisibilityValue>true</VisibilityValue>
+              <resizable>false</resizable>
+              <selectable>false</selectable>
+              <nin>0</nin>
+              <nout>0</nout>
+              <children>
+                <org.eclipse.gef.examples.logicdesigner.model.NandGate reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source"/>
+                <org.eclipse.gef.examples.logicdesigner.model.NandGate reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source"/>
+                <org.eclipse.gef.examples.logicdesigner.model.NandGate reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source"/>
+                <org.eclipse.gef.examples.logicdesigner.model.NandGate reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source"/>
+                <org.eclipse.gef.examples.logicdesigner.model.NandGate>
+                  <listeners serialization="custom">
+                    <java.beans.PropertyChangeSupport>
+                      <default>
+                        <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                      </default>
+                      <null/>
+                    </java.beans.PropertyChangeSupport>
+                  </listeners>
+                  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                  <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                  <id>12</id>
+                  <name>NAND Gate #12</name>
+                  <inputs/>
+                  <location>
+                    <x>0</x>
+                    <y>0</y>
+                  </location>
+                  <outputs/>
+                  <size reference="../../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/size"/>
+                  <VisibilityValue>false</VisibilityValue>
+                  <resizable>false</resizable>
+                  <selectable>false</selectable>
+                  <nin>0</nin>
+                  <nout>0</nout>
+                  <result>0</result>
+                </org.eclipse.gef.examples.logicdesigner.model.NandGate>
+                <org.eclipse.gef.examples.logicdesigner.model.NandGate>
+                  <listeners serialization="custom">
+                    <java.beans.PropertyChangeSupport>
+                      <default>
+                        <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                      </default>
+                      <null/>
+                    </java.beans.PropertyChangeSupport>
+                  </listeners>
+                  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                  <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                  <id>13</id>
+                  <name>NAND Gate #13</name>
+                  <inputs/>
+                  <location>
+                    <x>0</x>
+                    <y>0</y>
+                  </location>
+                  <outputs/>
+                  <size reference="../../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/size"/>
+                  <VisibilityValue>false</VisibilityValue>
+                  <resizable>false</resizable>
+                  <selectable>false</selectable>
+                  <nin>0</nin>
+                  <nout>0</nout>
+                  <result>0</result>
+                </org.eclipse.gef.examples.logicdesigner.model.NandGate>
+                <org.eclipse.gef.examples.logicdesigner.model.NandGate>
+                  <listeners serialization="custom">
+                    <java.beans.PropertyChangeSupport>
+                      <default>
+                        <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                      </default>
+                      <null/>
+                    </java.beans.PropertyChangeSupport>
+                  </listeners>
+                  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                  <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                  <id>14</id>
+                  <name>NAND Gate #14</name>
+                  <inputs/>
+                  <location>
+                    <x>0</x>
+                    <y>0</y>
+                  </location>
+                  <outputs/>
+                  <size reference="../../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/size"/>
+                  <VisibilityValue>false</VisibilityValue>
+                  <resizable>false</resizable>
+                  <selectable>false</selectable>
+                  <nin>0</nin>
+                  <nout>0</nout>
+                  <result>0</result>
+                </org.eclipse.gef.examples.logicdesigner.model.NandGate>
+                <org.eclipse.gef.examples.logicdesigner.model.NandGate>
+                  <listeners serialization="custom">
+                    <java.beans.PropertyChangeSupport>
+                      <default>
+                        <source class="org.eclipse.gef.examples.logicdesigner.model.NandGate" reference="../../../.."/>
+                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                      </default>
+                      <null/>
+                    </java.beans.PropertyChangeSupport>
+                  </listeners>
+                  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                  <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                  <id>15</id>
+                  <name>NAND Gate #15</name>
+                  <inputs/>
+                  <location>
+                    <x>0</x>
+                    <y>0</y>
+                  </location>
+                  <outputs/>
+                  <size reference="../../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/size"/>
+                  <VisibilityValue>false</VisibilityValue>
+                  <resizable>false</resizable>
+                  <selectable>false</selectable>
+                  <nin>0</nin>
+                  <nout>0</nout>
+                  <result>0</result>
+                </org.eclipse.gef.examples.logicdesigner.model.NandGate>
+                <org.eclipse.gef.examples.logicdesigner.model.LogicLabel>
+                  <listeners serialization="custom">
+                    <java.beans.PropertyChangeSupport>
+                      <default>
+                        <source class="org.eclipse.gef.examples.logicdesigner.model.LogicLabel" reference="../../../.."/>
+                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                      </default>
+                      <null/>
+                    </java.beans.PropertyChangeSupport>
+                  </listeners>
+                  <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+                  <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+                  <id>1</id>
+                  <name>Label #1 Text=null</name>
+                  <inputs/>
+                  <location>
+                    <x>0</x>
+                    <y>0</y>
+                  </location>
+                  <outputs/>
+                  <size>
+                    <width>10</width>
+                    <height>10</height>
+                  </size>
+                  <VisibilityValue>false</VisibilityValue>
+                  <resizable>false</resizable>
+                  <selectable>false</selectable>
+                  <nin>0</nin>
+                  <nout>0</nout>
+                  <text>RS</text>
+                </org.eclipse.gef.examples.logicdesigner.model.LogicLabel>
+              </children>
+              <leftRuler>
+                <listeners serialization="custom">
+                  <java.beans.PropertyChangeSupport>
+                    <default>
+                      <source class="org.eclipse.gef.examples.logicdesigner.model.LogicRuler" reference="../../../.."/>
+                      <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                    </default>
+                    <null/>
+                  </java.beans.PropertyChangeSupport>
+                </listeners>
+                <unit>2</unit>
+                <horizontal>false</horizontal>
+                <guides/>
+              </leftRuler>
+              <topRuler>
+                <listeners serialization="custom">
+                  <java.beans.PropertyChangeSupport>
+                    <default>
+                      <source class="org.eclipse.gef.examples.logicdesigner.model.LogicRuler" reference="../../../.."/>
+                      <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                    </default>
+                    <null/>
+                  </java.beans.PropertyChangeSupport>
+                </listeners>
+                <unit>2</unit>
+                <horizontal>true</horizontal>
+                <guides/>
+              </topRuler>
+              <rulersVisibility>false</rulersVisibility>
+              <snapToGeometry>false</snapToGeometry>
+              <gridEnabled>false</gridEnabled>
+              <zoom>1.0</zoom>
+              <pin__config>RS flip-flop (Structural):
+Case analysis: Not required
+Upper Terminals:Inputs
+Bottom Terminals:Outputs
+Bottom Left Corner: Circle Represents pin-1
+Pin Numbering:Anticlockwise
+I/P: R : 5, S : 8, Clk : 7
+O/P: Q : 4, Q&apos; : 1</pin__config>
+            </source>
+            <target class="org.eclipse.gef.examples.logicdesigner.model.Circuit" reference="../../../.."/>
+            <sourceTerminal>2</sourceTerminal>
+            <targetTerminal>D</targetTerminal>
+            <bendpoints/>
+            <VisibilityValue>false</VisibilityValue>
+          </org.eclipse.gef.examples.logicdesigner.model.Wire>
+        </entry>
+        <entry>
+          <string>H</string>
+          <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[5]/target/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+        </entry>
+      </inputs>
+      <location>
+        <x>0</x>
+        <y>0</y>
+      </location>
+      <outputs>
+        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[2]/target/inputs/entry[3]/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[5]/target/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[3]/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[2]/target/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[5]/target/inputs/entry[3]/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+        <org.eclipse.gef.examples.logicdesigner.model.Wire reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire"/>
+      </outputs>
+      <size>
+        <width>341</width>
+        <height>200</height>
+      </size>
+      <VisibilityValue>false</VisibilityValue>
+      <resizable>true</resizable>
+      <selectable>false</selectable>
+      <nin>0</nin>
+      <nout>0</nout>
+      <children>
+        <org.eclipse.gef.examples.logicdesigner.model.NotGate reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source"/>
+        <org.eclipse.gef.examples.logicdesigner.model.AndGate3 reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[2]/target"/>
+        <org.eclipse.gef.examples.logicdesigner.model.Circuit reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source"/>
+        <org.eclipse.gef.examples.logicdesigner.model.NotGate reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source"/>
+        <org.eclipse.gef.examples.logicdesigner.model.AndGate3 reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/outputs/org.eclipse.gef.examples.logicdesigner.model.Wire[5]/target"/>
+        <org.eclipse.gef.examples.logicdesigner.model.AndGate3 reference="../../inputs/entry/org.eclipse.gef.examples.logicdesigner.model.Wire/source/inputs/entry[2]/org.eclipse.gef.examples.logicdesigner.model.Wire/source"/>
+        <org.eclipse.gef.examples.logicdesigner.model.LogicLabel>
+          <listeners serialization="custom">
+            <java.beans.PropertyChangeSupport>
+              <default>
+                <source class="org.eclipse.gef.examples.logicdesigner.model.LogicLabel" reference="../../../.."/>
+                <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+              </default>
+              <null/>
+            </java.beans.PropertyChangeSupport>
+          </listeners>
+          <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+          <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+          <id>1</id>
+          <name>Label #1 Text=null</name>
+          <inputs/>
+          <location>
+            <x>0</x>
+            <y>0</y>
+          </location>
+          <outputs/>
+          <size>
+            <width>10</width>
+            <height>10</height>
+          </size>
+          <VisibilityValue>false</VisibilityValue>
+          <resizable>false</resizable>
+          <selectable>false</selectable>
+          <nin>0</nin>
+          <nout>0</nout>
+          <text>BinaryCell</text>
+        </org.eclipse.gef.examples.logicdesigner.model.LogicLabel>
+      </children>
+      <leftRuler>
+        <listeners serialization="custom">
+          <java.beans.PropertyChangeSupport>
+            <default>
+              <source class="org.eclipse.gef.examples.logicdesigner.model.LogicRuler" reference="../../../.."/>
+              <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+            </default>
+            <null/>
+          </java.beans.PropertyChangeSupport>
+        </listeners>
+        <unit>2</unit>
+        <horizontal>false</horizontal>
+        <guides/>
+      </leftRuler>
+      <topRuler>
+        <listeners serialization="custom">
+          <java.beans.PropertyChangeSupport>
+            <default>
+              <source class="org.eclipse.gef.examples.logicdesigner.model.LogicRuler" reference="../../../.."/>
+              <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+            </default>
+            <null/>
+          </java.beans.PropertyChangeSupport>
+        </listeners>
+        <unit>2</unit>
+        <horizontal>true</horizontal>
+        <guides/>
+      </topRuler>
+      <rulersVisibility>false</rulersVisibility>
+      <snapToGeometry>false</snapToGeometry>
+      <gridEnabled>false</gridEnabled>
+      <zoom>1.0</zoom>
+      <pin__config></pin__config>
+    </org.eclipse.gef.examples.logicdesigner.model.Circuit>
+    <org.eclipse.gef.examples.logicdesigner.model.LogicLabel>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="org.eclipse.gef.examples.logicdesigner.model.LogicLabel" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <VisibilityValue defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">false</VisibilityValue>
+      <selectable defined-in="org.eclipse.gef.examples.logicdesigner.model.LogicElement">true</selectable>
+      <id>4</id>
+      <name>Label #4 Text=null</name>
+      <inputs/>
+      <location>
+        <x>0</x>
+        <y>0</y>
+      </location>
+      <outputs/>
+      <size>
+        <width>10</width>
+        <height>40</height>
+      </size>
+      <VisibilityValue>true</VisibilityValue>
+      <resizable>true</resizable>
+      <selectable>false</selectable>
+      <nin>0</nin>
+      <nout>0</nout>
+      <text>New</text>
+    </org.eclipse.gef.examples.logicdesigner.model.LogicLabel>
+  </children>
+  <leftRuler>
+    <listeners serialization="custom">
+      <java.beans.PropertyChangeSupport>
+        <default>
+          <source class="org.eclipse.gef.examples.logicdesigner.model.LogicRuler" reference="../../../.."/>
+          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+        </default>
+        <null/>
+      </java.beans.PropertyChangeSupport>
+    </listeners>
+    <unit>2</unit>
+    <horizontal>false</horizontal>
+    <guides/>
+  </leftRuler>
+  <topRuler>
+    <listeners serialization="custom">
+      <java.beans.PropertyChangeSupport>
+        <default>
+          <source class="org.eclipse.gef.examples.logicdesigner.model.LogicRuler" reference="../../../.."/>
+          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+        </default>
+        <null/>
+      </java.beans.PropertyChangeSupport>
+    </listeners>
+    <unit>2</unit>
+    <horizontal>true</horizontal>
+    <guides/>
+  </topRuler>
+  <rulersVisibility>false</rulersVisibility>
+  <snapToGeometry>false</snapToGeometry>
+  <gridEnabled>false</gridEnabled>
+  <zoom>1.0</zoom>
+  <pin__config>Circuit:
+ Terminal number starting from top-left corner from left to right.
+Input:
+Output:
+</pin__config>
+  <n>0</n>
+</org.eclipse.gef.examples.logicdesigner.model.CircuitD>
